@@ -10,3 +10,4 @@ def show_students():
         print(student)
 
 show_students()
+print("Всего студентов:", len(students))
