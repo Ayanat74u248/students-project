@@ -6,4 +6,4 @@ def find_student(name):
             return
 
     print("Студент не найден")
-    find_student("Charlie")  
+find_student("Charlie") 
