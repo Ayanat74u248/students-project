@@ -1,8 +1,9 @@
-students = ["Alice", "Bob", "Charlie", "David", "Eva"]
-def show_students():
-    print("Список студентов:")
+students = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank"]
+def find_student(name):
     for student in students:
-        print(student)
+        if student.lower() == name.lower():
+            print("Студент найден:", student)
+            return
 
-
-show_students()
+    print("Студент не найден")
+    find_student("Charlie")  
